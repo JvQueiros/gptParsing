@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+celery==5.5.2
+redis
+requests==2.32.3

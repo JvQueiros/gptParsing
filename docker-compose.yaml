@@ -1,0 +1,28 @@
+version: '3.9'
+
+services:
+  redis:
+    image: redis:7
+    container_name: redis
+    ports:
+      - "6379:6379"
+
+
+  listener:
+    build: .
+    container_name: api_listener
+    volumes:
+      - .:/garantiasia
+    ports:
+      - "8000:8000"
+    depends_on:
+      - redis
+
+  celery:
+    build: .
+    container_name: celery_worker
+    command: celery -A task_controler worker --loglevel=info
+    volumes:
+      - .:/garantiasia
+    depends_on:
+      - redis
