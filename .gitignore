@@ -1,0 +1,29 @@
+# Ignore folders and its contents
+/bin/
+/Include/
+/Lib/
+/Scripts/
+/share/
+/-v/
+/_check/
+/venv/
+/.vscode/
+**/__pycache__/
+
+# Ignore files but not folders
+_file_test/*
+!_file_test/.gitkeep
+
+_result/*
+!_result/.gitkeep
+
+# Ignore files with extension
+.cfg
+
+# Ignore .env files (but not .env.example)
+!.env.example
+.env
+
+# Ingore specific files
+config/config.json
+start.sh
