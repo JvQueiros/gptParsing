@@ -1,5 +1,5 @@
 {
-	"token": "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"
+	"token": "token"
 	,"empty_rerun_times": 1
 	,"sec_wait_between_request": 60
 	,"gpt_version": "gpt-4.1-2025-04-14"
@@ -12,12 +12,12 @@
 	,"name_key_4": "valores"
 	,"name_key_5": "descricao"
 	,"name_key_6": "valor"
-	,"url_token": "https://hlg-garantia.asasdev.net:444/services/garantia-security-api/oauth/token"
-	,"url_send_data": "https://hlg-garantia.asasdev.net:444/services/garantia-api/analiseBalanco/integracao"
+	,"url_token": "url_token"
+	,"url_send_data": "url/integracao"
 	,"celery_broker_url": "redis://redis:6379/0"
 	,"celery_result_backend": "redis://redis:6379/0"
-	,"payload_username": "joao.victor@asasinsurance.com"
-	,"payload_password": "Jv@Homolog159!"
+	,"payload_username": "username.com"
+	,"payload_password": "<password>"
 	,"payload_grant_type": "password"
-	,"header_authorization": "Basic Y2F0dWx1cy13ZWItYXBwOjFxMnczZTRyI2NhdHVsdXM=" 
+	,"header_authorization": "Basic YdfasbsdfsgegebsdfdbfsfdXM=" 
 }
