@@ -25,5 +25,4 @@ _result/*
 .env
 
 # Ingore specific files
-config/config.json
 start.sh
