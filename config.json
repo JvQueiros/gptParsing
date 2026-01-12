@@ -1,0 +1,23 @@
+{
+	"token": "token"
+	,"empty_rerun_times": 1
+	,"sec_wait_between_request": 60
+	,"gpt_version": "gpt-4.1-2025-04-14"
+	,"_gpt_version": "gpt-4.1-mini"
+	,"debug": false
+	,"filename": "file"
+	,"name_key_1": "idBalanco"
+	,"name_key_2": "anos"
+	,"name_key_3": "ano"
+	,"name_key_4": "valores"
+	,"name_key_5": "descricao"
+	,"name_key_6": "valor"
+	,"url_token": "url_token"
+	,"url_send_data": "url/integracao"
+	,"celery_broker_url": "redis://redis:6379/0"
+	,"celery_result_backend": "redis://redis:6379/0"
+	,"payload_username": "username.com"
+	,"payload_password": "<password>"
+	,"payload_grant_type": "password"
+	,"header_authorization": "Basic YdfasbsdfsgegebsdfdbfsfdXM=" 
+}
